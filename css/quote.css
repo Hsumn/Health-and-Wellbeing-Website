@@ -1,0 +1,51 @@
+.quote{   
+    font-size: 30px;
+    background-color:rgb(71, 226, 226);
+    border-radius: 20px;
+    border-style: solid;
+    border-color: gray;
+    border-width: 3px;
+    border-left-width: 15px;
+    width: 80%; 
+    height: 450px; 
+    margin: auto;
+    text-align: center;
+    display: flex; /* Enables flexbox layout */
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
+    padding: 20px; /* Adds padding inside the block */
+    box-sizing: border-box;
+}
+
+blockquote p:nth-child(1){
+    font-family: 'Neuton';
+    text-align: center;
+    clear: left;
+}
+
+blockquote p:nth-child(2){
+    font-family: 'Bebas Neue';
+    text-align: end;
+}
+
+blockquote p:nth-child(1)::before{
+    content:"\201C";
+    font-size: 2em;
+    color:gray;
+    display:block;
+    text-align: left;
+    margin-bottom: 10px;
+}  
+
+blockquote p:nth-child(1)::after{
+    content:"\201D";
+    font-size: 2em;
+    color:gray;
+    display:block;
+    text-align: right;
+    margin-top: 10px;
+}  
+
+blockquote p:nth-child(2)::before{
+    content:"-";
+}

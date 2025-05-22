@@ -1,0 +1,8 @@
+head title{
+    font-family: Brush Script MT;
+    font-size: bolder;
+    font-size: 5em;
+}
+.btn:hover{
+    border: 2px solid black;
+}

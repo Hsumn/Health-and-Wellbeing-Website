@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');    
+
+form{
+    font-family: Abhaya Libre;
+    --bs-border-opacity: 1;
+    font-size: larger;
+}
+
+h1{
+    font-family: Brush Script MT;
+    font-weight: bolder;
+    font-size: 5em;
+}
+.btn{
+    background-color: rgb(254, 208, 230);
+    border-radius: 10px;
+}
+.btn:hover{
+    border: 2px solid black;
+}
+h5{
+    font-family: 'BhuTuka Expanded One';
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.container .star-widget input{
+    display: none;
+
+  }
+.star-widget label{
+    font-size: 35px;
+    color: #444;
+    padding: 10px;
+    float: right;
+    transition: all 0.3s ease;
+    display:flex;
+}
+@media screen and (max-width: 600px) {
+    .star-widget label {
+        font-size: 25px;
+        padding: 5px;
+    }
+}
+@media screen and (max-width: 454px) {
+    .star-widget label {
+        font-size: 15px;
+        padding: 5px;
+    }
+}
+.star-widget input:not(:checked) ~ label:hover,
+.star-widget input:not(:checked) ~ label:hover ~ label{
+    color: #fd4;
+}
+ .star-widget input:checked ~ label{
+    color: #fd4;
+}
+.container .Category{
+    font-size: 20px;
+}
+@media screen and (max-width: 600px) {
+    .container .Category{
+        font-size: 15px;
+    }
+}
+.nav-link #logo{
+    font-size: 100px;
+}
+.logo1{
+    height: 30px;
+    width: auto;
+}
+.navbar{
+    margin: 0;
+    padding: 0;
+}
+.nav-link {
+    color: black;
+}
+#oncanvas{
+    font-family: Brush Script MT;
+    font-size: 35px;
+}
+.quotebtn .left-button::before{
+    content: "<";
+    font-size: 1em;
+    margin-right: 5px;
+}
+.quotebtn .right-button::after{
+    content: ">";
+    font-size: 1em;
+    margin-right: 5px;
+}
+.quotebtn{
+    margin: auto;
+    text-align: center;
+    justify-content: center; 
+    row-gap: 30px;
+}
+#getintouch{
+    font-family: Brush Script MT;
+    font-size: 2em;
+}
+#label1{
+    font-weight: bolder;
+    text-decoration: underline;
+}
+#label2{
+    font-weight: bolder;
+    text-decoration: underline;
+}
+.formbg{
+    background-color: rgb(254, 208, 230);
+}
+.abtus1{
+    font-weight: bolder;
+    font-size: large;
+}
+#btnmp{
+    display: block;
+    margin: auto;
+    margin: 10px 24px;
+}
+#results blockquote{
+    background-color: rgb(254, 208, 230);
+    border-radius: 60px 20px;
+    font-size: 20px;
+}
+#helpid{
+    font-family: Abhaya Libre;
+    font-weight: 900;
+}
+.help{
+    font-family: Abhaya Libre;
+    font-size:larger;
+}
+#submitrate{
+    text-align: center;
+    justify-content: center;
+}
+
